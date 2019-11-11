@@ -8,15 +8,10 @@ Esta aplicação consome os dados de duas API's sendo elas a **[RECEITAWS](https
 |/api/cnpj/*cnpj* |get      | Retorna um JSON com os dados do CNPJ Informado               | 
 |/api/quote       |post     | Retorna um JSON com a cotação do Frete de Empresas Ficticias |  
 
-# Observações  
-Para a construção da rota o tratamento das informações foram feitas de duas maneiras. 
-A rota **/api/cnpj/cnpj** foi desenvolvida dentro do próprio arquivo de rotas do Framework. Para a rota **/api/quote** o tratamento das requisições se deu 
-com o auxílio de um controlador. Foram empregados esses métodos de forma diferenciada para demonstrar as possibilidades de desenvolvimento do Lumen.  
-Validações das rotas também foram aplicadas no arquivo **app/Exceptions/Handler.php**  
+
 # Utilização  
-Para testar o funcionamento da mesma basta clonar o repositório ou fazer o download do mesmo.  
-Abrir o diretório da api no Terminal e digitar o comando de inicialização abaixo:  
-```php -S localhost:8000 -t public```  
+Para testar o funcionamento da mesma instalar o PHALCON FRAMEWORK na basta de LIBS do PHP.  
+Depois de ter Clonado ou baixado o arquivo ZIP deste repositório você apenas basta colocar dentro da pasta htdocs ou www do **XAMPP** ou do **WAMPP** e acessar normalmente pela URL. 
 **Formato do JSON para envio no Método POST**
 ```
 {
