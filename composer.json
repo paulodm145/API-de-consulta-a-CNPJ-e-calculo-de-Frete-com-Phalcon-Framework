@@ -1,0 +1,18 @@
+{
+    "name": "paulo/phalcon",
+    "authors": [
+        {
+            "name": "Paulo R. Bolsanello",
+            "email": "paulo.bolsanello@gmail.com"
+        }
+    ],
+	 "autoload": {
+        "psr-4": {
+            "Freterapido\\": "{PATH}/Freterapido",
+            "GPBMetadata\\": "{PATH}/GPBMetadata"
+        }
+    },
+    "require": {
+	"guzzlehttp/guzzle": "~6.0"
+	}
+}
